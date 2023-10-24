@@ -3,6 +3,9 @@ Hash: SHA512
 
 # General information about me, Myzel394.
 
+Timestamp: 2023-10-24 18:51
+Latest Bitcoin Block: 00000000000000000001598e50200689e5bef61653ae174a708cc1756c18b63e
+
 ## Contact information
 
 * E-Mail: github.7a2op(~at~)simplelogin(~dot~)co
@@ -46,29 +49,11 @@ Hash: SHA512
 This message has been signed with my key. **Please save it as soon as you see this message**.
 The key will expire at 2033-10-21 UTC. **Do not trust this key after this date.**
 
-My key is:
-
-```
-- -----BEGIN PGP PUBLIC KEY BLOCK-----
-
-mDMEZTfvnhYJKwYBBAHaRw8BAQdAi2AiLsTaBoLhnQtY5vi3xBU/H428wbNfBSe+
-2dhz3r60Jk15emVsMzk0IDxnaXRodWIuN2Eyb3BAc2ltcGxlbG9naW4uY28+iJkE
-ExYKAEEWIQR9BS8nNHwqrNgV0B3NE0dCwel5WQUCZTfvngIbAwUJEswDAAULCQgH
-AgIiAgYVCgkICwIEFgIDAQIeBwIXgAAKCRDNE0dCwel5WcS8AQCf9g6eEaut1suW
-l6jCLIg3b1nWLckmLJaonM6PruUtigEAmVnFOxMpOZEIcILT8CD2Riy+IVN9gTNH
-qOHnaFsu8AK4OARlN++eEgorBgEEAZdVAQUBAQdAe4ffDtRundKH9kam746i2TBu
-P9sfb3QVi5QqfK+bek8DAQgHiH4EGBYKACYWIQR9BS8nNHwqrNgV0B3NE0dCwel5
-WQUCZTfvngIbDAUJEswDAAAKCRDNE0dCwel5WWwSAQDj4ZAl6bSqwbcptEMYQaPM
-MMhMafm446MjkhQioeXw+wEAzA8mS6RBx7IZvu1dirmFHXOEYJclwjyQhNs4uEjq
-/Ak=
-=ICHe
-- -----END PGP PUBLIC KEY BLOCK-----
-```
-
+Key Fingerprint: `7D05 2F27 347C 2AAC D815  D01D CD13 4742 C1E9 7959`
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQR9BS8nNHwqrNgV0B3NE0dCwel5WQUCZTf3PgAKCRDNE0dCwel5
-WY6zAPwO95d1al0TgnkMXJCapEGNeSYq4UaG4pa/Kc6z07pkJAEAqijWGq4WsL29
-U2Bti1KkK/JFbwVxC3+9HDyuLIDT7A4=
-=k7Jg
+iHUEARYKAB0WIQR9BS8nNHwqrNgV0B3NE0dCwel5WQUCZTf6pwAKCRDNE0dCwel5
+WRy3AP9PZHJk+ZHIIXyiyfw3J7AhwslW+Neh/5TmjobJaxPLuQEAn/zfPpS9uTtx
+zOO9A4rbQyEScXOLARgL0LMb5BHU7gc=
+=FtMC
 -----END PGP SIGNATURE-----
