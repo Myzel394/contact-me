@@ -1,13 +1,15 @@
------BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA512
+#!/bin/bash
+LATEST_BLOCK_HASH=$(curl -sSL 'https://mempool.space/api/blocks/tip/hash')
+CURRENT_DATE=$(date +'%F %H:%M')
 
-
+MESSAGE_DYNAMIC="
 # General information about me, Myzel394.
 
-Timestamp: 2024-01-04 14:15
-Latest Bitcoin Block: 000000000000000000033f007859636c38029613eb74fbaa880671ee88c675f5
+Timestamp: $CURRENT_DATE
+Latest Bitcoin Block: $LATEST_BLOCK_HASH
 
-
+"
+MESSAGE_STATIC='
 ## Contact information
 
 * E-Mail: github.7a2op(~at~)simplelogin(~dot~)co
@@ -52,11 +54,19 @@ This message has been signed with my key. **Please save it as soon as you see th
 The key will expire at 2033-10-21 UTC. **Do not trust this key after this date.**
 
 Key Fingerprint: `7D05 2F27 347C 2AAC D815  D01D CD13 4742 C1E9 7959`
+'
+MESSAGE="$MESSAGE_DYNAMIC$MESSAGE_STATIC"
 
------BEGIN PGP SIGNATURE-----
+HASH_STATIC=$(echo "$MESSAGE_STATIC" | sha512sum | cut --fields=1 --delimiter=" ")
 
-iHUEARYKAB0WIQR9BS8nNHwqrNgV0B3NE0dCwel5WQUCZZavhgAKCRDNE0dCwel5
-WdqtAP9mfLMyaPuoe8YLxaPlCgYCWmUN4tpbDzbGcaiSloyjZAEAlfZuuzKfLXyi
-dm9eUpjhdUGBYSKzFJIYq4XNp4fhPww=
-=4i4S
------END PGP SIGNATURE-----
+echo "The hash of the static value is: $HASH_STATIC - Would you like to continue? [y] "
+
+read continue
+
+if [[ $continue != "y" ]]; then
+    echo "Not yes; aborting"
+    exit 1
+fi
+
+echo "$MESSAGE" | gpg --clearsign
+
