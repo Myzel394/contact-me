@@ -1,0 +1,19 @@
+name: Verify GPG signature
+on: [push]
+
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Install gpg
+        run: sudo apt-get install gnupg
+
+      - name: Import key
+        run: gpg --import key.pub
+
+      - name: Check signature
+        run: gpg --verify README.md
