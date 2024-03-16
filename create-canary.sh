@@ -68,5 +68,5 @@ if [[ $continue != "y" ]]; then
     exit 1
 fi
 
-echo "$MESSAGE" | gpg --clearsign
+echo "$MESSAGE" | gpg --clearsign > README.md
 
