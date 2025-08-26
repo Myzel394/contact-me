@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 LATEST_BLOCK_HASH=$(curl -sSL 'https://mempool.space/api/blocks/tip/hash')
 CURRENT_DATE=$(date +'%F %H:%M')
 

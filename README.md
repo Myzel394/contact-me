@@ -4,8 +4,8 @@ Hash: SHA512
 
 # General information about me, Myzel394.
 
-Timestamp: 2024-08-12 19:53
-Latest Bitcoin Block: 0000000000000000000146d1a32d3cdea4b06963afaea8fc66f2b43e9d192a1e
+Timestamp: 2025-08-26 21:07
+Latest Bitcoin Block: 00000000000000000001d400d22eb5afb1b1c300eb936918ac3ea5db8ab1a6c4
 
 
 ## Contact information
@@ -53,10 +53,11 @@ The key will expire at 2033-10-21 UTC. **Do not trust this key after this date.*
 
 Key Fingerprint: `7D05 2F27 347C 2AAC D815  D01D CD13 4742 C1E9 7959`
 
+
 -----BEGIN PGP SIGNATURE-----
 
-iHUEARYKAB0WIQR9BS8nNHwqrNgV0B3NE0dCwel5WQUCZrpMBgAKCRDNE0dCwel5
-Wd2uAP91mI/R+F1zX3D3ngfq5JuWODTegWZeEV75NK8kRdp2JgEAkit7t0TMKeQt
-GRYpVvTbjXnOYvu1IayiQmQ/a3b1sww=
-=ENRT
+iHUEARYKAB0WIQR9BS8nNHwqrNgV0B3NE0dCwel5WQUCaK4GFAAKCRDNE0dCwel5
+WZg0AQC/v42+qN9b+ulnKcA/qNvPtAn6jovMc3ilN3CgfQ1FFQEArRPLAs/2adOA
+eD2qRijEbr+s5y7CqyR8TQuyhYmNhwc=
+=bjg7
 -----END PGP SIGNATURE-----
